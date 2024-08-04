@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+/* Logo Styles */
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    width: auto;
+    margin-right: 1rem; /* Space between logo and text */
+}
+
+/* Light Mode */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-gray-800 {
+    color: #333;
+}
+
+.border {
+    border-color: #ccc;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+
+header.dark {
+    background-color: #2d3748;
+    color: white;
+}
+
+footer.dark {
+    background-color: #2d3748;
+    color: white;
+}
+
+.bg-gray-800 {
+    background-color: #2d3748;
+}
+
+.text-gray-200 {
+    color: #edf2f7;
+}
+
+.dark .border {
+    border-color: #4a5568;
+}
+
+.dark .bg-gray-700 {
+    background-color: #4a5568;
+}
+
+/* Button Styles */
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Chatbot Styles */
+#chatbot {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+#chatbot h3 {
+    margin-bottom: 0.5rem;
+}
